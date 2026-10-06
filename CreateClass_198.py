@@ -13,3 +13,13 @@ class PersegiPanjang:
 
     def __str__(self):
         return f"Persegi panjang, panjang {self.panjang} cm, dan lebar {self.lebar} cm"
+
+while True:
+    input_panjang = int(input("Masukkan panjang (cm): "))
+    input_lebar = int(input("Masukkan lebar (cm): "))
+
+    if input_panjang > 0 and input_lebar > 0:
+        break
+    print("Nilai tidak boleh 0, coba lagi.\n")
+
+pp = PersegiPanjang(input_panjang, input_lebar)
