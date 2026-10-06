@@ -23,3 +23,7 @@ while True:
     print("Nilai tidak boleh 0, coba lagi.\n")
 
 pp = PersegiPanjang(input_panjang, input_lebar)
+
+print(pp)
+print("Keliling:", pp.hitung_keliling())
+print("Luas:", pp.hitung_luas())
